@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>1-4 句子聽打挑戰</title>
+<title>1-2 句子聽打挑戰</title>
 <style>
 body { font-family: sans-serif; max-width: 600px; margin: auto; text-align: center; padding: 30px 15px; }
 #logo, #logo-game { width: 150px; max-width: 80%; margin-bottom: 10px; display: block; margin-left: auto; margin-right: auto; }
@@ -56,16 +56,16 @@ if (password !== "1231") { alert("密碼錯誤，無法進入！"); window.locat
 
 <script>
 const questions = [
-  { audio: "41010401S.mp3", answer: "계획대로 일이 잘 진행되어 가고 있는 것 같아요." },
-  { audio: "41010402S.mp3", answer: "노래 가사를 듣는 대로 써 보세요." },
-  { audio: "41010403S.mp3", answer: "내 마음대로 일을 처리하다가 다 망쳐버렸어요." },
-  { audio: "41010404S.mp3", answer: "마음이 가는 대로 사는 게 정말 행복한 삶 아닐까?" },
-  { audio: "41010405S.mp3", answer: "너의 말대로 다시 한번 생각해 보니까, 그게 맞는 것 같아." },
-  { audio: "41010406S.mp3", answer: "“생각하는 대로 그렇게 된다”라는 말 정말 진짜일까요?" },
-  { audio: "41010407S.mp3", answer: "고객님께서 주문하신 대로 음식을 준비해 놓았습니다." },
-  { audio: "41010408S.mp3", answer: "모든 일은 결국 마음먹는 대로 되는 거야!" },
-  { audio: "41010409S.mp3", answer: "첫 만남은 항상 계획대로 되지 않아요!" },
-  { audio: "41010410S.mp3", answer: "네가 원하는 대로 다 맞춰줄 테니까 나를 떠나지 마!" }
+  { audio: "41010201S.mp3", answer: "직접 만든 건강 쿠키를 먹다 보면 중독되는 맛이에요." },
+  { audio: "41010202S.mp3", answer: "블로그 맛집 후기 계속 읽다 보면 시간이 순삭 돼요." },
+  { audio: "41010203S.mp3", answer: "너 그렇게 자꾸 핑계만 대다 보면 결국 아무것도 하지 못할걸?" },
+  { audio: "41010204S.mp3", answer: "계속 일하다 보면 점점 익숙해지고 효율도 올라가더라고요." },
+  { audio: "41010205S.mp3", answer: "매일 아침 일찍 일어나다 보면 어느새 몸이 자연스럽게 그 시간에 깨어나는 것 같아요." },
+  { audio: "41010206S.mp3", answer: "회사 생활을 오래 하다 보면 단순히 일만 잘한다고 되는 게 아니라는 걸 깨닫게 되죠." },
+  { audio: "41010207S.mp3", answer: "포기하지 않고 계속 노력하다 보면 운도 어느 순간 따라와요." },
+  { audio: "41010208S.mp3", answer: "아르바이트하다 보면 돈 버는 게 얼마나 어려운 일인지 크게 느껴지더라구요." },
+  { audio: "41010209S.mp3", answer: "자신을 자꾸 비교하다 보면 결국 남는 건 열등감 뿐이에요." },
+  { audio: "41010210S.mp3", answer: "계속 도전하다 보면 언젠가는 성공하는 날이 올 거야." }
 ];
 
 const modeSelectDiv = document.getElementById("mode-select");
@@ -100,8 +100,8 @@ let currentMode = null;
 let startTime = null; // 記錄挑戰開始時間
 
 // 顯示標題與送表單標題
-const displayTitle = "1-4 句子聽打挑戰";
-const fullTitle = "41-1-4 句子聽打挑戰";
+const displayTitle = "1-2 句子聽打挑戰";
+const fullTitle = "41-1-2 句子聽打挑戰";
 
 function shuffle(array){for(let i=array.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[array[i],array[j]]=[array[j],array[i]];}return array;}
 
